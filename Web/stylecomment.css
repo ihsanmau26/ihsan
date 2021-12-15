@@ -1,0 +1,100 @@
+*{
+	font-family: arial, sans-serif;
+}
+
+.frm{
+    border: 1px solid black;
+    width: 50%;
+    border-radius: 5px;
+    background: #0082e6;
+    padding: 25px;
+    margin: 38px auto;
+    
+}
+.frm h1{
+    font-family: monospace;
+    font-size: 40px;
+	text-align: center;
+    color:  black;
+    border: 2px solid;
+    border-radius: 50px;
+    background-color:  #B0C4DE;
+}
+
+.frm p{
+    font-size: 25px;
+}
+.frm input{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+}
+.frm textarea{
+    width: 100%;
+    height: 100px;
+    font-size: 18px;
+}
+.frm ul{
+    width: 25%;
+    height: 25%;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+.frm ul li{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px; 
+  font-size: 20px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.frm ul:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.frm #btn{
+	width: 25%;
+    height: 25%;
+    font-size: 20px;
+    border: 1px solid white;
+    color: white;
+    background: black;
+    padding: 10px 20px;
+    float: right;
+}
+.frm #btn:hover{
+    background: white;
+    border: 1px solid black;
+    color: black;
+}
+@media screen and (max-width: 1068px){
+  .frm{
+    margin: 33px auto;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 868px){
+  .frm{
+    margin: 28px auto;
+    width: 75%;
+  }
+  .frm ul li{
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 768px){
+  .frm{
+    margin-top: 25px;
+    width: 90%;
+  }
+  .frm ul li{
+    padding-left: 5px;
+  }
+  .frm #btn{
+    width: 28%;
+  }
+}
